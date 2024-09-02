@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background: #000000;
+    cursor: none;
+}
+.full-screen-3d-example{
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+.full-screen-3d-example.-loaded{
+    opacity: 1;
+}
